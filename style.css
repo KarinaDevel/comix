@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-image: url(./images/back.png);
+    font-family: 'StratosSkyeng', sans-serif;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*в чем смысл этого ? */
+}
+
+.header {
+    height: 100vh;
+    background-image: url(./images/head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content {
+    padding-top: 75px;
+    border-top: 25px solid black;
+    position: relative;
+}
+
+table {
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr,
+td {
+    border: 25px solid #fff;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+img {
+    width: 560px;
+}
+
+p {
+    width: max-content;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin: 23px auto;
+}
+
+a {
+    display: block;
+    background-color: rgb(152, 101, 240);
+    color: #fff;
+    padding: 11px 30px;
+    border-radius: 50px;
+    font-size: 38px;
+    position: absolute;
+    bottom: 75px;
+    right: 80px;
+    text-decoration: none;
+}
